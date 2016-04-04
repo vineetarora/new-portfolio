@@ -15,8 +15,10 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/index.css">
+        <link id="mobileCSS" rel="stylesheet" type="text/css" href="">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -25,75 +27,76 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top website-header-navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand header-logo" href="#">
+                    <a class="navbar-brand about-link header-logo" href="#">
                         Vineet Arora
                     </a>
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-portfolio-navbar-collapse" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="my-portfolio-navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#" class="works-link">Works</a></li>
+                        <li><a href="#" class="contact-link">Contact</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
         </nav>
 
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-2">
-                        <img src="img/skill-icons/photoshop.JPG" alt="" class="img-responsive">
-                    </div>
+        <section class="about">
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-2">
+                            <img src="img/me.JPG" alt="" class="img-responsive hidden-xs"> <!-- Responsive link A -->
+                        </div>
 
-                    <div class="col-md-4">
-                        <h1>Hello!</h1>
-                        <h2>I'm Vineet Arora</h2>
-                        <p>
-                            I’m an undergradaute student at Indian Institute of Technology Roorkee. A UI/ UX Designer by passion, I design as well as write frontend code for my projects.
-                        </p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Download Resume</a>
+                        <div class="col-md-4 hello-intro">
+                            <h1>Hello!</h1>
+                            <h2>I'm Vineet Arora</h2>
+                            <p>
+                                I’m an undergradaute student at Indian Institute of Technology Roorkee. A UI/ UX Designer by passion, I design as well as write frontend code for my projects.
+                            </p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Download Resume</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <section class="skills">
-            <div class="container">
+            <div class="container" id="size-reference-container">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="skills-and-interests">
                         <div class="row">
                             <h1 class="text-center">Skills and Interests</h1>
                             <p class="text-center">I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend. I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend.</p>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-4 col-sm-2">
+                        <div class="row skill-icons">
+                            <div class="col-xs-2 col-md-1 col-md-offset-3">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
-                            <div class="col-xs-4 col-sm-2">
+                            <div class="col-xs-2 col-md-1">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
-                            <div class="col-xs-4 col-sm-2">
+                            <div class="col-xs-2 col-md-1">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
-                            <div class="col-xs-4 col-sm-2">
+                            <div class="col-xs-2 col-md-1">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
-                            <div class="col-xs-4 col-sm-2">
+                            <div class="col-xs-2 col-md-1">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
-                            <div class="col-xs-4 col-sm-2">
+                            <div class="col-xs-2 col-md-1">
                                 <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                             </div>
 
@@ -103,23 +106,59 @@
             </div>
         </section>
 
-        <section class="works" style="background-color: #eeeeee;">
+        <section class="works">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="text-center">Works</h1>
-                        <p class="text-center">I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend. I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend.</p>
+                        <p class="text-center works-main-paragraph">I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend. I’m driven by the belief of keeping things in order. So, my favorite pastime is devising ways to improve my lifestyle. Symmetry is my best friend.</p>
                     </div>
                 </div>
 
 
 
-                <div class="row">
+                <div class="row works-case-study">
                     <div class="col-md-4 col-md-offset-2">
+                        <h2 class="mobile-screen-work-heading visible-xs-block">Buy and Sell</h2> <!-- Responsive link B1 -->
                         <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
                     </div>
                     <div class="col-md-4">
-                        <h2>
+                        <h2 class="hidden-xs"> <!-- Responsive link B2 -->
+                            Buy Sell
+                        </h2>
+                        <p>
+                            Buy Sell is the intranet E-commerce portal of IIT Roorkee. Redesigning this portal was my first project as a web designer.
+                        </p>
+                        <a href="" class="btn btn-primary">Read full story</a>
+                    </div>
+                </div>
+                <div class="row works-case-study">
+                    <div class="col-md-4 col-md-offset-2">
+                        <h2 class=" hidden-xs">Buy and Sell</h2> <!-- Responsive link C1 -->
+                        <p class="hidden-xs"> <!-- Responsive link C2 -->
+                            Buy Sell is the intranet E-commerce portal of IIT Roorkee. Redesigning this portal was my first project as a web designer.
+                        </p>
+                        <a href="" class="btn btn-primary hidden-xs">Read full story</a>  <!-- Responsive link C3 -->
+                    </div>
+                    <div class="col-md-4">
+                       <h2 class="mobile-screen-work-heading visible-xs-block">
+                            Buy Sell
+                        </h2>
+                       <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
+                       
+                        <p class="visible-xs-block">
+                            Buy Sell is the intranet E-commerce portal of IIT Roorkee. Redesigning this portal was my first project as a web designer.
+                        </p>
+                        <a href="" class="btn btn-primary visible-xs-inline-block">Read full story</a>
+                    </div>
+                </div>
+                <div class="row works-case-study">
+                    <div class="col-md-4 col-md-offset-2">
+                        <h2 class="mobile-screen-work-heading visible-xs-block">Buy and Sell</h2>
+                        <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="hidden-xs">
                             Buy Sell
                         </h2>
                         <p>
@@ -129,31 +168,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-2">
-                        <h2>
-                            Buy Sell
-                        </h2>
-                        <p>
-                            Buy Sell is the intranet E-commerce portal of IIT Roorkee. Redesigning this portal was my first project as a web designer.
+                    <div class="col-md-8 col-md-offset-2">
+                        <p class="text-center behance-link-para">
+                            And there are more to see. You can view them on my 
+                            <a href="#" class="">
+                                <b>Behance profile.</b>
+                            </a>
                         </p>
-                        <a href="" class="btn btn-primary">Read full story</a>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-2">
-                        <img class="img-responsive" src="img/skill-icons/photoshop.JPG" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <h2>
-                            Buy Sell
-                        </h2>
-                        <p>
-                            Buy Sell is the intranet E-commerce portal of IIT Roorkee. Redesigning this portal was my first project as a web designer.
-                        </p>
-                        <a href="" class="btn btn-primary">Read full story</a>
                     </div>
                 </div>
 
@@ -164,7 +185,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -177,17 +198,17 @@
                             Would love to hear from you.
                         </p>
                         <div class="row">
-                            <div class="col-md-4 col-md-offset-4">
+                            <div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
                                 <a href="#" class="btn btn-primary btn-lg center-block">Drop a mail</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row social-icons">
                     <div class="col-md-1 col-md-offset-4 col-xs-3">
-                        <div class="center-block social-icon">
+                        <a href="" class="center-block social-icon">
                             <i class="fa fa-facebook"></i>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-md-1 col-xs-3">
                         <div class="center-block social-icon">
