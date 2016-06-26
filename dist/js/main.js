@@ -10,15 +10,24 @@ var a = 0;
 var pos = $(window).scrollTop();
 if(pos > a) {
     $("div#my-portfolio-navbar-collapse").css({
-                'box-shadow': '0 2px 5px rgba(0,0,0,0.5)'
+                'box-shadow': '0 2px 5px rgba(0,0,0,0.1)'
             });
-}
-else {
+} else {
     $("#my-portfolio-navbar-collapse").css({
                 'box-shadow': 'none',
                 
             });
 }
+
+var posBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+/*
+if(posBottom < a+50){
+	$(".bottom-line").css("display","block");
+	console.log("Hello, it is bottom");
+} else{
+	$(".bottom-line").css("display","none");
+}
+*/
 });
 
 		var socialIconWidth = $(".social-icon i").width;

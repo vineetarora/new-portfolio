@@ -23,7 +23,7 @@ a, a:focus, a:hover
 .btn-primary
 {
     background-image: none;
-    background-color: #333333;
+    background-color: #243538;
     color: #fff;
     min-width: 144px;
     padding: 12px 24px;
@@ -33,7 +33,7 @@ a, a:focus, a:hover
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary:active:focus, .btn-primary.active:focus, .btn-primary:active.focus, .btn-primary.active.focus
 {
-    background-color: #444444;
+    background-color: #004652;
 }
 
 
@@ -41,23 +41,32 @@ a, a:focus, a:hover
 
 
 
-
+.header-container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .website-header-navbar
 {
-    background-color: #282A28;
-    padding-top: 6px;
+    background-color: #f7f7f7;
+    padding-top: 0;
     background-image: none;
+}
+
+.header-logo
+{
+    padding-left: 30px; 
 }
 
 .website-header-navbar a
 {
-    color: #cccccc;
+    color: #848484;
 }
 
 .website-header-navbar a:hover
 {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-collapse
@@ -76,10 +85,15 @@ a, a:focus, a:hover
     background-color: transparent;
 }
 
+.custom-navbar-right
+{
+    margin-right: 0;
+}
+
 #my-portfolio-navbar-collapse .navbar-right li a
 {
     font-size: 13px;
-    margin-right: 24px
+    margin-left: 15px;
 }
 
 #my-portfolio-navbar-collapse .navbar-right li:last-child a
@@ -89,12 +103,12 @@ a, a:focus, a:hover
 
 .nav > li > a:hover, .nav > li > a:focus
 {
-    background-color: #282A28;
-    color: #FFF;
+    background: none;
+    color: #22221f;
 }
 
 div#my-portfolio-navbar-collapse {
-    background-color: #282A28;
+    background-color: #f7f7f7;
     box-shadow: none;
 }
 
@@ -108,7 +122,7 @@ span.icon-bar {
 .jumbotron
 {
     padding-bottom: 60px;
-    background-color: #282A28;
+    background-color: #f7f7f7;
 }
 
 
@@ -120,7 +134,7 @@ span.icon-bar {
 
 .hello-intro
 {
-    color: #cccccc;
+    color: #444444;
 }
 
 .hello-intro h1
@@ -128,14 +142,14 @@ span.icon-bar {
     margin-top: 96px;
     font-weight: 100;
     font-size: 60px;
-    color: #9A885B;
+    color: #243538;
 }
 
 .hello-intro h2
 {
     margin-top: 24px;
     font-size: 30px;
-    color: #9A885B;
+    color: #909494;
 }
 
 .hello-intro p
@@ -168,7 +182,7 @@ span.icon-bar {
     font-size: 30px;
     font-weight: 100;
     margin-top: 72px;
-    color: #C49F59;
+    color: #243538;
 }
 
 .skills-and-interests p
@@ -193,7 +207,7 @@ span.icon-bar {
 
 .works
 {
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
 }
 
 .works h1
@@ -201,7 +215,7 @@ span.icon-bar {
     font-size: 36px;
     font-weight: 100;
     margin-top: 72px;
-    color: #C49F59;
+    color: #243538;
 }
 
 .works .works-main-paragraph
@@ -224,7 +238,7 @@ span.icon-bar {
 .works-case-study h2
 {
     font-size: 27px;
-    color: #ECC817;
+    color: #243538;
 }
 
 .works-case-study p
@@ -249,38 +263,103 @@ span.icon-bar {
     max-width: 192px;
 }
 
+.behance-profile-link:hover
+{
+    color: #004652;
+}
 
-
+.contact
+{
+    
+    background-color: #243538;
+}
 
 .contact h1
 {
     font-size: 30px;
     font-weight: 100;
-    margin-top: 72px;
+    margin-top: 25vh;
+    color: #f7f7f7;
 }
 
 .contact p
 {
     margin: 24px 0;
+    color: #cacaca;
 }
 
+.contact .btn-primary
+{
+    background-color: #ff8d00;
+    color: #ffffff;
+}
+
+.contact .btn-primary:hover
+{
+    background-color: #ff7c00;
+}
+
+.or-you-can-follow-me-on
+{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+}
+
+.or-you-can-follow-me-on a
+{
+    color: #dedede;
+}
+
+.or-you-can-follow-me-on a:hover
+{
+    color: #ffffff;
+}
 
 .social-icons
 {
     margin: 48px 0;
 }
 
+.center-block
+{
+    max-width: 180px;
+}
+
 .center-block.social-icon
 {
     text-align: center;
-    background-color: #333;
+    background-color: #243538;
     border-radius: 100%;
     width: 60px;
     height: 60px;
     padding-top: 18px;
 }
 
+.center-block.social-icon:hover
+{
+    background-color: #004652;
+}
+
 .social-icon i {
     font-size: 18px;
     color: #ddd;
+}
+
+.bottom-line
+{
+    position: relative;
+    bottom: 0;
+    height: 36px;
+    width: 100%;
+    margin-top: 204px;
+    background-color: #ffffff;
+}
+
+.pikaboo-footer-image
+{
+    display: table;
+    margin-left: 5vw;
+    margin-top: -144px;
 }
