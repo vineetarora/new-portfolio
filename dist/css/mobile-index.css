@@ -36,6 +36,11 @@
 	margin-top: 24px;
 }
 
+.works-case-study img
+{
+	height: auto;
+}
+
 h2.mobile-screen-work-heading
 {
 	margin-top: 0;

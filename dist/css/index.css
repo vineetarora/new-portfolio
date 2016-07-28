@@ -196,8 +196,9 @@ span.icon-bar {
 
 .skills-and-interests .skill-icons
 {
-    margin-top: 24px;
-    margin-bottom: 108px;
+    max-width: 400px;
+    display: table;
+    margin: 24px auto 108px auto;
 }
 
 
